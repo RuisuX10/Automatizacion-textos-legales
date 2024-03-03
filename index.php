@@ -10,6 +10,7 @@
   </head>
   <body>
     <div class="mb-3 container">
+        <h1 class="mx-auto">Generador de Textos Legales</h1>
         <form id="myForm" action="" method="POST" target="_blank">
             <div class="row mb-3 ">
                 <div class="col-sm-2">
@@ -59,9 +60,9 @@
                 <input type="text" name="fecha" id="fecha" class="form-control"><br>
                 </div>
             </div>
-            <button type="submit" data-action="./textos-legales/cookies.php" class="btn btn-primary">Politica de cookies</button><br>
-            <button type="submit" data-action="./textos-legales/accesibilidad.php" class="btn btn-success">Declaracion de Asccesibilidad</button><br>
-            <button type="submit" data-action="./textos-legales/privacidad.php" class="btn btn-info">Politica de privacidad</button>
+            <button type="submit" data-action="./textos-legales/cookies.php" class="btn btn-primary m-1">Politica de cookies</button><br>
+            <button type="submit" data-action="./textos-legales/accesibilidad.php" class="btn btn-success m-1">Declaracion de Asccesibilidad</button><br>
+            <button type="submit" data-action="./textos-legales/privacidad.php" class="btn btn-info m-1">Politica de privacidad</button>
         </form>
     </div>
   

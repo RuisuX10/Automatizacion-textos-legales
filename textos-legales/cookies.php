@@ -2,9 +2,6 @@
 
     $razonSocial = $_POST['razonSocial'];
 
-    var_dump($_POST);
-    echo $razonSocial;
-
 ?>
 
 <!DOCTYPE html>
