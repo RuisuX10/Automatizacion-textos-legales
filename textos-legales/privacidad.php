@@ -1,9 +1,9 @@
 <?php
-
-    $razonSocial = $_POST['razonSocial'];
-    $domicilio = $_POST['domicilio'];
-    $nif = $_POST['NIF'];
-    $correo = $_POST['correo'];
+$razonSocial = isset($_POST['razonSocial']) ? $_POST['razonSocial'] : '';
+$domicilio = isset($_POST['domicilio']) ? $_POST['domicilio'] : '';
+$nif = isset($_POST['NIF']) ? $_POST['NIF'] : '';
+$correo = isset($_POST['correo']) ? $_POST['correo'] : '';
+$nombreComercial = isset($_POST['nombreComercial']) ? $_POST['nombreComercial'] : '';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,6 +18,7 @@
     <title>Politica de privacidad</title>
 </head>
 <body>
+   <H1>Política de Privacidad</H1>
 <h3><strong><span>1.</span></strong> <strong><span>INFORMACI&Oacute;N AL USUARIO</span></strong></h3>
 <p><strong><span><?php echo $razonSocial ?></span></strong><span> como
 Responsable del Tratamiento, le informa que, seg&uacute;n lo dispuesto en el Reglamento
@@ -36,7 +37,7 @@ Pol&iacute;tica, acepta que tratemos sus datos personales como se define en esta
 Pol&iacute;tica.</span></p>
 <h3><strong><span>2. CONTACTO</span></strong></h3>
 <p><span>Denominaci&oacute;n social: <strong><span> <?php echo $razonSocial ?> </span></strong></span></p>
-<p><span>Nombre comercial: <strong><?php echo $razonSocial ?></span>
+<p><span>Nombre comercial: <strong><?php echo $nombreComercial ?></span>
 </strong><br> CIF: <strong><span> <?php echo $nif ?> </span></strong><br> Domicilio: <strong><span><?php echo $domicilio ?></span></strong></span></p>
 <p><span>e-mail:&nbsp;</span><span><a href="mailto:<?php echo $correo ?>">
 <span><?php echo $correo ?></span></a></span><span><br>&nbsp;&nbsp;</span></p>

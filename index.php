@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Generador de Textos Legales</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
   <body>
@@ -18,6 +18,14 @@
                 </div>
                 <div class="col-sm-8 ">
                     <input type="text" name="razonSocial" id="razonSocial" class="form-control"><br>
+                </div>
+            </div>
+            <div class="row mb-3 ">
+                <div class="col-sm-2">
+                    <label for="NombreComercial" class="col-form-label">Nombre Comercial:</label>
+                </div>
+                <div class="col-sm-8 ">
+                    <input type="text" name="nombreComercial" id="nombreComercial" class="form-control"><br>
                 </div>
             </div>
             <div class="row mb-3 justify-content-start">
@@ -60,9 +68,9 @@
                 <input type="text" name="fecha" id="fecha" class="form-control"><br>
                 </div>
             </div>
-            <button type="submit" data-action="./textos-legales/cookies.php" class="btn btn-primary m-1">Politica de cookies</button><br>
-            <button type="submit" data-action="./textos-legales/accesibilidad.php" class="btn btn-success m-1">Declaracion de Asccesibilidad</button><br>
-            <button type="submit" data-action="./textos-legales/privacidad.php" class="btn btn-info m-1">Politica de privacidad</button>
+            <button type="submit" data-action="./textos-legales/cookies.php" class="btn btn-primary m-1">Política de cookies</button><br>
+            <button type="submit" data-action="./textos-legales/accesibilidad.php" class="btn btn-success m-1">Declaración de Accesibilidad</button><br>
+            <button type="submit" data-action="./textos-legales/privacidad.php" class="btn btn-info m-1">Política de privacidad</button>
         </form>
     </div>
   

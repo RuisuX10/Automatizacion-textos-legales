@@ -10,9 +10,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Política de Accesibilidad</title>
 </head>
 <body>
+    <h1>Política de Accesibilidad</h1>
 <p><strong><span> <?php echo $razonSocial ?> </span></strong><span> se ha
 comprometido a hacer accesibles sus sitios web de conformidad con el&nbsp;</span><span><a
 href="https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699" target="_blank"><strong>
